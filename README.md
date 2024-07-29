@@ -19,6 +19,7 @@ python -m venv env
 ## ACTIVATE THE ENV VARIABLE 
 On Windows
 .\env\Scripts\activate
+
 # On macOS/Linux
 source env/bin/activate
 
@@ -29,6 +30,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 
 In this case you should write the name of the app as: 
+
 uvicorn app:app --reload
 
 You can now access the application by opening a browser and navigating to http://127.0.0.1:8000, after put a /docs as endpoint of the application
