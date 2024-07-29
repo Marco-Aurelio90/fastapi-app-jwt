@@ -12,7 +12,7 @@ async def register_user(
         user: schemas.UserRequest, db: orm.Session = fastapi.Depends(services.get_db)
 ):
     # call to check if user with email exist
-    db_user = await services.getUserByEmail(email=user.email, db=db)
+    db_user = await services.getuserbyemail(email=user.email, db=db)
     # if user found throw exception(it means the same user 2times)
     if db_user:
         raise fastapi.HTTPException(status_code=400, detail="Email already exist, try another one")
