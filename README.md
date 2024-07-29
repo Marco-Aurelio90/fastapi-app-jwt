@@ -9,11 +9,11 @@ This is a simple example how to create a users and to login in a service with th
 Clone the repository with:
 git clone https://github.com/Marco-Aurelio90/fastapi-app-jwt.git
 
-##PROJECT DIRECTORY
+## PROJECT DIRECTORY
 cd (project name) 
 example : cd fastapi-app-jwt
 
-##CREATE ENVIROMENT VARIABLE 
+## CREATE ENVIROMENT VARIABLE 
 python -m venv env
 
 ## ACTIVATE THE ENV VARIABLE 
